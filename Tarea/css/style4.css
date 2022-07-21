@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(27, 122, 129);
+    font-family: "Trebuchet MS", sans-serif;
+    color:aliceblue;
+  }
+
+  h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    color:aliceblue;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color:rgb(113, 35, 64);
+    text-align: center;
+  }
+
+  #portada{
+    text-align: center;
+    border-top: 1px solid rgb(29, 187, 139);
+    padding: 5px 10px;
+    margin-left: 45%;
+  }
+   
+  #portada{
+    font-family:"Garamond", serif;
+    font-size:30pt;
+    background-color: #3aa878;
+    color: #7e1350;
+    border-radius: 5px;
+  }
+  
+  #portada:hover {
+    background-color: #791940;
+  }
+
+  .img {
+    margin-left: 30%;
+    width: 600px;
+    height: 400px;
+  }
+
+.spacer {
+    height: 20px;
+}
