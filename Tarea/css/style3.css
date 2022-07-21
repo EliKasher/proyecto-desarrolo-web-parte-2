@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(27, 122, 129);
+    font-family: "Trebuchet MS", sans-serif;
+    color:aliceblue;
+    padding: 15px;
+  }
+
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  color:aliceblue;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Garamond", serif;
+  color:aliceblue;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+legend {
+  color: #79173c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+fieldset {  
+  border-style: solid;
+  border-color: #a33c636e;
+  border-radius: 4px;
+  background-color: #1669494f;
+  padding: 20px;
+}
+
+label {
+  padding: 20px 20px 20px 0;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid rgba(236, 230, 233, 0.644);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #a33c64;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color:#39c48a;
+}
+
+#boton-foto:hover {
+  background-color:#39c48a;
+}
+
+
+#boton-foto {
+  background-color: #a33c64;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-foto {
+  background-color: #022a2a5b;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contenedorErrores {
+  background-color: #a33c64;
+  border-radius: 4px;
+}
+
+#capa {
+	display:none;
+	position:fixed;
+  right:0;
+  bottom:0;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(164, 42, 75, 0.5);
+}
+
+#capa>div:first-child {
+	margin:0;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+ 
+	width:400px;
+	border:1px solid #16806e;
+	padding:5px;
+	background:rgb(144, 10, 75);
+  border-radius: 5px;
+}
+
+.buttons {
+	text-align: right;
+	border-top: 1px solid rgb(29, 187, 139);
+	padding: 5px 10px;
+}
+ 
+.button {
+	font-family:"Garamond", serif;
+	font-size:11pt;
+  background-color: #3aa878;
+  color: #7e1350;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #791940;
+}
+
+#titulo {
+  color:rgb(25, 134, 112);
+}
